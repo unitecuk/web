@@ -1,0 +1,15 @@
+runtime: php
+env: flex
+runtime_config:
+  document_root: public
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: base64:Lf0tfNY0VLvMEfQ9r8ihClDXI2f0TV4+rO2FImL1Bhk=
+  CLOUD_SQL__CONNECTION: sql
+  CLOUD_SQL__HOST: 35.238.66.6
+  CLOUD_SQL__PORT: 3306
+  CLOUD_SQL__DATABASE: login
+  CLOUD_SQL__USERNAME: root
+  CLOUD_SQL__PASSWORD: unitec
+  CLOUD_SQL__SOCKET: cloudsql/eloquent-marker-287211:us-central1:website
+  QUEUE_DRIVER: database
